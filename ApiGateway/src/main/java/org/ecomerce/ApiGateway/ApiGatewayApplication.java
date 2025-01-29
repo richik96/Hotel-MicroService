@@ -1,4 +1,4 @@
-package org.ecomerce.hotelservicejan25;
+package org.ecomerce.ApiGateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,9 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class HotelServiceJan25Application {
+public class ApiGatewayApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(HotelServiceJan25Application.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(ApiGatewayApplication.class, args);
+	}
+
 }
