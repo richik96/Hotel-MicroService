@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ApiGateWayJan25Application<apigatewayjan25>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "org.ecomerce.apigatewayjan25.ApiGateWayJan25Application",
+            "projectName": "apigatewayjan25",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
